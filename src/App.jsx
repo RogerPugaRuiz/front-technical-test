@@ -7,7 +7,7 @@ import Header from './layouts/Header';
 function App() {
   return (
     <Router>
-      <div className='dark:bg-neutral-900 dark:text-white flex flex-col min-h-screen'>
+      <div className='dark:bg-gray-900 dark:text-white flex flex-col min-h-screen'>
       <Header />
       <div className='grow'>
       <Routes>

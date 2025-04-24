@@ -40,7 +40,7 @@ export default function ProductListPage() {
 						<div
 						key={product.id}
 						className="bg-white border border-gray-200 rounded-lg shadow p-4 flex flex-col items-center hover:shadow-lg transition-shadow cursor-pointer"
-						onClick={() => navigate(`/product/${product.brand}-${product.model}`)}
+						onClick={() => navigate(`/product/${product.id}`)}
 					>
 						<img src={product.imgUrl} alt={product.model} className="w-32 h-32 object-contain mb-4" />
 						<h2 className="font-semibold text-lg mb-2 text-center text-gray-700">{product.brand}-{product.model}</h2>
