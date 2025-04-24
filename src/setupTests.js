@@ -1,0 +1,3 @@
+// Configuración global para los tests de React
+import '@testing-library/jest-dom';
+// ...puedes agregar aquí otros setups si lo necesitas...
